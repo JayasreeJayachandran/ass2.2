@@ -1,1 +1,10 @@
-
+HDFS Blocks :
+         >the files are distributed in blocks.each block is of 128 MB.
+         >based on the file size,the no of  blocks are created.
+         >these blocks are contiguously arranged so that it has less seek time.
+         >In hadoop 1.x it is 64 MB but in hadoop 2.x it is changed to 128MB
+         >these blocks are replicated based on the replication factor.
+         >all these replicas does not recide on the same rack atleast one replica is placed on another rack to improve 
+          the fault tolerance.
+         >these blocks improve storage sharing.
+         

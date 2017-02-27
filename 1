@@ -1,5 +1,15 @@
 HDFS:(Hadoop Distributed File System)
            >HDFS is used to store the data and its main functions is to distribute the storage system in an efficient manner
            such that it has high fault tolerance and scalability.
-           >
+           >HDFS finds hardware problems and solve the issues on its own .This property made them outstanding.
+           >It is based on GFS(google file system).
+           >Its another uniqueness is its replication factor,even if there is a failure or data is lost it has a backup file
+           to provide the data.
+           >These files are divided into blocks and distributed in clusters.
+           >HDFS normally deals with huge amount of data where the data is written once but can be read n number of times.
+           >It is cost efficient since it uses commodity hardwares for storing data.
+           >HDFS has three main parts Master daemon,slave daemon,backup master daemon
+           >Each has its own function .Master daemon knows where the datas are recided and controls the overall function where 
+           slave daemon stores the data.Backup daemon takes backup of master daemon to takeover controll when the master daemon fails.
+           
            
